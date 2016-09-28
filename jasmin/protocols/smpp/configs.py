@@ -133,7 +133,7 @@ class SMPPClientConfig(object):
         self.service_type = kwargs.get('service_type', None)
         self.addressTon = kwargs.get('addressTon', AddrTon.UNKNOWN)
         self.addressNpi = kwargs.get('addressNpi', AddrNpi.UNKNOWN)
-        self.source_addr_ton = kwargs.get('source_addr_ton', AddrTon.NATIONAL)
+        self.source_addr_ton = kwargs.get('source_addr_ton', AddrTon.ALPHANUMERIC)
         self.source_addr_npi = kwargs.get('source_addr_npi', AddrNpi.ISDN)
         self.dest_addr_ton = kwargs.get('dest_addr_ton', AddrTon.INTERNATIONAL)
         self.dest_addr_npi = kwargs.get('dest_addr_npi', AddrNpi.ISDN)
